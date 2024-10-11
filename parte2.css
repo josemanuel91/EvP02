@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
+#contenedor{
+    width:70%;
+    border:1px solid gray;
+    margin:20px auto;
+}
+li{list-style-type: none;}
+a{text-decoration: none;}
+
+#cabecera{
+    border:1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#menu ul a{
+    padding:6px;
+    border:1px solid black;
+    margin:30px;
+    border-radius: 20px; 
+    
+}
+#menu ul a:hover{
+    background-color: black;
+    color:white;
+}
+.logooo{
+    width: 90%;
+}
+.cuadros{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.cuadro1{   
+        border:1px solid grey;
+        height: 500px;
+        width: 220px;                                                  
+        margin: 10px;         
+        display: inline-block;  
+        background-color: bisque; 
+}
+.cuadro2{
+    border: 1px solid grey;
+    height: 500px;
+    width: 600px;                                                                                                
+    margin: 10px;         
+    display: inline-block;
+    background-color: bisque;   
+}
+
+.autos{
+    display: grid;
+    height: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    object-fit: cover;
+    
+}
+
+.auto1{
+    height: 110px;
+    border-radius: 30%;
+}
+.auto2{
+    height: 110px;
+    border-radius: 30%;
+}
+.auto3{
+    height: 120px
+}
+.auto4{
+    height: 110px;
+}
+ 
+.imagenes img {
+    width: 150px; 
+    height: auto;
+}
+
+#menu_inferior ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+#redes{
+    display: flex;
+    width: 20px;
+}
+
+#izquierda{
+    position: relative;
+    top: 45px;
+}
+
+#redes{
+    display: flex;
+    height: 30px; 
+    position: relative;
+    top: -20px; 
+}
+#librodereclamaciones{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -23px;
+    height: 60px;
+}
